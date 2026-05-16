@@ -109,9 +109,15 @@ h3 {
     margin-top: 2px;
 }
 
-/* Certification Badge */
+/* Certifications Badges Grid Alignment */
+.certifications-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
 .cert-badge {
-    max-width: 140px;
+    max-width: 130px;
     height: auto;
     margin-top: 10px;
     border-radius: 4px;
