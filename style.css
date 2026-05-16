@@ -1,0 +1,140 @@
+/* Global Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fa;
+    color: #333333;
+    padding: 40px 20px;
+}
+
+/* Page Container Layout */
+main, header, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+}
+
+header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    border-bottom: 2px solid #004b87; /* Professional Blue Accent */
+    padding-bottom: 25px;
+}
+
+/* Profile Picture Layout */
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #004b87;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #111111;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #004b87;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.contact-info a {
+    color: #555555;
+    text-decoration: none;
+    font-size: 0.95rem;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+.contact-info a:hover {
+    color: #004b87;
+    text-decoration: underline;
+}
+
+/* Main Content Headings */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #004b87;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e1e8ed;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+/* Section-Specific Styling */
+p {
+    font-size: 1rem;
+    color: #444444;
+}
+
+.education-item, .project-item, .certification-item {
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #222222;
+    margin-bottom: 3px;
+}
+
+.institution {
+    font-weight: 600;
+    color: #555555;
+}
+
+.details, .coursework {
+    font-size: 0.95rem;
+    margin-top: 2px;
+}
+
+/* Certification Badge */
+.cert-badge {
+    max-width: 140px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.skills-grid p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.project-desc {
+    font-size: 0.95rem;
+    margin-top: 4px;
+}
+
+/* Footer Styles */
+footer {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #777777;
+    border-top: 1px solid #e1e8ed;
+    padding-top: 20px;
+    margin-top: 10px;
+}
